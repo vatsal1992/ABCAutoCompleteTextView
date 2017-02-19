@@ -14,7 +14,7 @@
 		87CBE2721BD20924003A161A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CBE2701BD20924003A161A /* LaunchScreen.storyboard */; };
 		87CBE27D1BD20924003A161A /* ABCAutoCompleteTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBE27C1BD20924003A161A /* ABCAutoCompleteTextViewTests.m */; };
 		87CBE2881BD20924003A161A /* ABCAutoCompleteTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBE2871BD20924003A161A /* ABCAutoCompleteTextViewUITests.m */; };
-		87CBE2971BD209B0003A161A /* ABCAutoCompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBE2961BD209B0003A161A /* ABCAutoCompleteTextView.m */; settings = {ASSET_TAGS = (); }; };
+		87CBE2971BD209B0003A161A /* ABCAutoCompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBE2961BD209B0003A161A /* ABCAutoCompleteTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -217,6 +217,7 @@
 				TargetAttributes = {
 					87CBE25E1BD20924003A161A = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = GAARM62PVB;
 					};
 					87CBE2771BD20924003A161A = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -415,9 +416,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GAARM62PVB;
 				INFOPLIST_FILE = ABCAutoCompleteTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.adamCooper.ABCAutoCompleteTextView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackEsad.ABCAutoCompleteTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -426,9 +428,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GAARM62PVB;
 				INFOPLIST_FILE = ABCAutoCompleteTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.adamCooper.ABCAutoCompleteTextView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackEsad.ABCAutoCompleteTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -500,6 +503,7 @@
 				87CBE28E1BD20924003A161A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87CBE28F1BD20924003A161A /* Build configuration list for PBXNativeTarget "ABCAutoCompleteTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +512,7 @@
 				87CBE2911BD20924003A161A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87CBE2921BD20924003A161A /* Build configuration list for PBXNativeTarget "ABCAutoCompleteTextViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +521,7 @@
 				87CBE2941BD20924003A161A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

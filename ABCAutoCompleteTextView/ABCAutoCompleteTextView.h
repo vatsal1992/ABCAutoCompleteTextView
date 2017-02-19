@@ -13,6 +13,10 @@
 //Data Arrays
 @property (nonatomic, strong) NSArray *usernamesArray;
 @property (nonatomic, strong) NSArray *hashtagsArray;
+@property (nonatomic, strong) UITableView *tableView; // made public to reach it outside
+
+@property (nonatomic, retain) IBInspectable NSString *placeholder;  // Placeholder
+@property (nonatomic, retain) IBInspectable UIColor *placeholderColor;
 
 
 @end
